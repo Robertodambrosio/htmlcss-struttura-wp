@@ -5,3 +5,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    background-color: #3066BE;
+    margin-bottom: 20px;
+}
+
+
+/* =============== debug =============== */
+
+.debug.jumbotron {
+    height: 500px;
+    background-color: #119DA4;
+}
+
+
+/* main  */
+
+.jumbotron {
+    margin-bottom: 20px;
+}
+
+
