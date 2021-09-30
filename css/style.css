@@ -76,4 +76,10 @@ header{
     margin-right: 2%;
 }
 
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #19647E;
+}
 
